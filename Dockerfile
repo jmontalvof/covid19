@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 # Instala dependencias del sistema, Python, pip y actualiza todo
 RUN apt-get update && apt-get install -y \\
