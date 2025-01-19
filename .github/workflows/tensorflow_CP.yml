@@ -29,9 +29,9 @@ jobs:
       # Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t computer-vision-model:latest .
+          docker build -t computer-covid-model:latest .
 
       # Run the Docker container
       - name: Run Docker container
         run: |
-          docker run --rm computer-vision-model:latest
+          docker run --rm computer-covid-model:latest
